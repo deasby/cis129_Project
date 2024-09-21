@@ -14,7 +14,7 @@ num_muffins = int(input('Enter the number of Muffins bought: '))
 num_danish = int(input('Enter the number of Danish bought: '))
 num_tea = int(input('Enter the number of tea bought: '))
 #Calculations - This section will show how calculations are made depending on the item and quantity
-subtotal = (num_coffees * coffee_prices) + (num_muffins * muffin_prices) + (num_danish * danish_prices) + (num_tea * tea_prices))
+subtotal = (num_coffees * coffee_prices) + (num_muffins * muffin_prices) + (num_danish * danish_prices) + (num_tea * tea_prices)
 tax = (subtotal * tax_rate) 
 total = (subtotal + tax)
 #Receipt - This will provide the consumer of a break down of their purchase 
